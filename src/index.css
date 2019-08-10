@@ -4,7 +4,8 @@
 }
 
 body {
-  margin: 50px 0 100px;
+  margin: 0 0 100px;
+  color: #00995c;
   font-family: 'Main', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -14,12 +15,13 @@ body {
 
 @media only screen and (max-width: 1050px) {
   body {
-    font-size: 3em;
+    font-size: 3.5em;
   }
 }
 
 @media only screen and (max-width: 767px) {
   body {
-    font-size: 1.5em;
+    padding: 10px;
+    font-size: 1.8em;
   }
 }

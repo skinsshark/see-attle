@@ -5,7 +5,9 @@ import ListItem from './ListItem';
 function App() {
   return (
     <main>
-      <h1>When in... <nobr>SEE-attle</nobr></h1>
+      <section>
+        <h1>When  in... <nobr><span>SEE</span>-attle</nobr></h1>
+      </section>
       <section>
         <h2>Food</h2>
         {/*<p>i really miss some of these places</p>*/}
