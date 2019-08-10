@@ -20,6 +20,6 @@ body {
 
 @media only screen and (max-width: 767px) {
   body {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }

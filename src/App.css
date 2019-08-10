@@ -19,6 +19,12 @@ h2 {
   margin-bottom: 0;
 }
 
+@media only screen and (max-width: 1050px) {
+  h2 {
+    -webkit-text-stroke: 1px black;
+  }
+}
+
 h2 + p {
   margin-top: 0;
   font-size: 0.5em;
