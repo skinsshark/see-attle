@@ -1,8 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import ListItem from './ListItem';
 
+// const col = [
+//   '#6aba75',
+//   '#9ed8ff',
+//   '#d7b0ff',
+//   '#485ccf',
+//   '#ffd84a',
+// ]
+
 function App() {
+  useEffect(() => {
+    const title = document.getElementsByTagName('h1');
+    console.log(title[0].textContent)
+  }, []);
+
   return (
     <main>
       <section>
@@ -77,7 +90,7 @@ function App() {
 
       <section>
         <h2>Stores</h2>
-        <p>lots of fun and cool stores around the city</p>
+        {/*<p>lots of fun and cool places around the city</p>*/}
         <ListItem name="Totokaelo" />
         <ListItem name="Standard Goods" />
         <ListItem name="Glasswing Shop" />
@@ -90,7 +103,7 @@ function App() {
       </section>
 
       <footer>
-        <p className="plus ad">Photos not available</p>
+        <p className="plus ad">Photos not available (coming soon)</p>
       </footer>
     </main>
   );
