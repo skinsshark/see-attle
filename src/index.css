@@ -1,4 +1,9 @@
 @font-face {
+	font-family: 'Text';
+	src: url("./font/Text.otf") format('truetype');
+}
+
+@font-face {
 	font-family: 'Main';
 	src: url("./font/Main.ttf") format('truetype');
 }
@@ -6,7 +11,7 @@
 body {
   margin: 0 0 100px;
   color: #00995c;
-  font-family: 'Main', serif;
+  font-family: 'Text', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
