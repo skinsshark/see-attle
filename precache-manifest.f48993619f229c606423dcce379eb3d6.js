@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44cb8ea20bcb79cfd49f27c5659f6920",
+    "revision": "325d50cb5bcca9eb2a0d3487fca7c7ef",
     "url": "/see-attle/index.html"
   },
   {
-    "revision": "e931b5d1e5fffe4f7d3c",
+    "revision": "63dc87460ad00818c56b",
     "url": "/see-attle/static/css/main.cf5123e3.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/see-attle/static/js/2.ec295295.chunk.js"
   },
   {
-    "revision": "e931b5d1e5fffe4f7d3c",
-    "url": "/see-attle/static/js/main.3e32bee3.chunk.js"
+    "revision": "63dc87460ad00818c56b",
+    "url": "/see-attle/static/js/main.9273f402.chunk.js"
   },
   {
     "revision": "5df30d38ecaea2bc58a3",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e96fc15365231f2dc29fc9c10895cfea",
     "url": "/see-attle/static/media/din-tai-fung.e96fc153.jpg"
+  },
+  {
+    "revision": "6dce971d44634d6d099ad89b1dff07e9",
+    "url": "/see-attle/static/media/frye-art-museum.6dce971d.jpg"
   },
   {
     "revision": "5eba5d5eb33bf373c107ea230ca25f92",
@@ -50,6 +54,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "512005545da697a5e34274af7ed3dd07",
     "url": "/see-attle/static/media/totokaelo.51200554.jpg"
+  },
+  {
+    "revision": "4f6e155cd56bf3fe8974a5cfce9299ce",
+    "url": "/see-attle/static/media/vetri-gallery-1.4f6e155c.jpg"
+  },
+  {
+    "revision": "4b0b7943b6d2acd41774a162f4c66b71",
+    "url": "/see-attle/static/media/vetri-gallery-2.4b0b7943.jpg"
+  },
+  {
+    "revision": "108395f5643b65f4205bedb2b9907070",
+    "url": "/see-attle/static/media/vetri-gallery.108395f5.jpg"
   },
   {
     "revision": "af8ffddcb8cd92086255a5b4d704cd63",
