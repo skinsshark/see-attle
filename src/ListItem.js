@@ -13,7 +13,7 @@ function ListItem(props) {
   const hasImage = !plus;
 
   if (hasImage) {
-    img = require('./images/totokaelo.jpg');
+    img = require(`./images/${id}.jpg`);
   }
 
   useEffect(() => {

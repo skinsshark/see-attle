@@ -31,24 +31,24 @@ function App() {
       <section>
         <h2>Food</h2>
         {/*<p>i really miss some of these places</p>*/}
-        <ListItem name="Tavolata" />
-        <ListItem name="Eden Hill" />
-        <ListItem name="Mike's Noodle House" />
-        <ListItem name="Il Corvo" />
-        <ListItem name="Sushi Kashiba" />
-        <ListItem name="Piroshky Piroshky" />
-        <ListItem name="Sitka & Spruce" />
-        <ListItem name="Lola" />
+        <ListItem name="Tavolata" plus />
+        <ListItem name="Eden Hill" plus />
+        <ListItem name="Mike's Noodle House" plus />
+        <ListItem name="Il Corvo" plus />
+        <ListItem name="Sushi Kashiba" plus />
+        <ListItem name="Piroshky Piroshky" plus />
+        <ListItem name="Sitka & Spruce" plus />
+        <ListItem name="Lola" plus />
         <ListItem name="Ramen Danbo" />
-        <ListItem name="The Pink Door" />
+        <ListItem name="The Pink Door" plus />
         <ListItem name="Din Tai Fung" />
-        <ListItem name="General Porpoise Doughnuts" />
-        <ListItem name="Frankie & Jo's" />
-        <ListItem name="Rachel's Ginger Beer" />
-        <ListItem name="Molly Moon's Homemade Ice Cream" />
-        <ListItem name="The Walrus and the Carpenter" />
+        <ListItem name="General Porpoise Doughnuts" plus />
+        <ListItem name="Frankie & Jo's" plus />
+        <ListItem name="Rachel's Ginger Beer" plus />
+        <ListItem name="Molly Moon's Homemade Ice Cream" plus />
+        <ListItem name="The Walrus and the Carpenter" plus />
         <ListItem name="Westward" />
-        <ListItem name="Shiro's Sushi" />
+        <ListItem name="Shiro's Sushi" plus />
         <ListItem name="Old School Frozen Custard" />
 
         <p className="plus ad">
@@ -61,8 +61,8 @@ function App() {
         <h2>Cafes</h2>
         <p>i don't remember going out for coffee as much as i do now but here's a short list, not a shortlist</p>
         <ListItem name="La Marzocco Cafe" plus />
-        <ListItem name="Ambrosia Cafe" />
-        <ListItem name="The London Plane" />
+        <ListItem name="Ambrosia Cafe" plus />
+        <ListItem name="The London Plane" plus />
         <ListItem name="Cherry Street Coffee House" plus />
         <ListItem name="Grand Central Bakery" plus />
         <ListItem name="Slate Coffee Roasters" plus />
@@ -79,42 +79,42 @@ function App() {
       <section>
         <h2>Nature</h2>
         <p>not much of a winter hiker but here's what i did</p>
-        <ListItem name="Lake 22" />
+        <ListItem name="Lake 22" plus />
         <ListItem name="Rattlesnake Ledge" plus />
-        <ListItem name="Poo Poo Point" />
-        <ListItem name="Discovery Park Loop Trail" />
-        <ListItem name="Mount/Little Si" />
-        <ListItem name="Washington Park Arboretum" />
+        <ListItem name="Poo Poo Point" plus />
+        <ListItem name="Discovery Park Loop Trail" plus />
+        <ListItem name="Mount/Little Si" plus />
+        <ListItem name="Washington Park Arboretum" plus />
       </section>
 
       <section>
         <h2>Art</h2>
         <p>Seattle is all about glass and wood art and I am not a fan of either but here's some places that featured non-glass/wood exhibits</p>
         <ListItem name="Frye Art Museum" />
-        <ListItem name="Linda Hodges Gallery" />
-        <ListItem name="Seattle Art Museum" />
-        <ListItem name="Harris Harvey Gallery" />
-        <ListItem name="Bryan Ohno Gallery" />
-        <ListItem name="Traver Gallery" />
-        <ListItem name="Frederick Holmes and Company" />
-        <ListItem name="Treason Gallery" />
-        <ListItem name="Center on Contemporary Art (CoCA) Gallery" />
+        <ListItem name="Linda Hodges Gallery" plus />
+        <ListItem name="Seattle Art Museum" plus />
+        <ListItem name="Harris Harvey Gallery" plus />
+        <ListItem name="Bryan Ohno Gallery" plus />
+        <ListItem name="Traver Gallery" plus />
+        <ListItem name="Frederick Holmes and Company" plus />
+        <ListItem name="Treason Gallery" plus />
+        <ListItem name="Center on Contemporary Art (CoCA) Gallery" plus />
         <ListItem name="Vetri Gallery" />
-        <ListItem name="Davidson Galleries" />
+        <ListItem name="Davidson Galleries" plus />
       </section>
 
       <section>
         <h2>Stores</h2>
         {/*<p>lots of fun and cool places around the city</p>*/}
         <ListItem name="Totokaelo" />
-        <ListItem name="Standard Goods" />
-        <ListItem name="Glasswing Shop" />
-        <ListItem name="Homestead Seattle" />
-        <ListItem name="The Palm Room" />
-        <ListItem name="Prism" />
-        <ListItem name="Baby & Company" />
-        <ListItem name="The Elliott Bay Book Company" />
-        <ListItem name="Uwajimaya" />
+        <ListItem name="Standard Goods" plus />
+        <ListItem name="Glasswing Shop" plus />
+        <ListItem name="Homestead Seattle" plus />
+        <ListItem name="The Palm Room" plus />
+        <ListItem name="Prism" plus />
+        <ListItem name="Baby & Company" plus />
+        <ListItem name="The Elliott Bay Book Company" plus />
+        <ListItem name="Uwajimaya" plus />
       </section>
 
       <footer>
