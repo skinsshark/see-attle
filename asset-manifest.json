@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/see-attle/static/css/main.cf5123e3.chunk.css",
-    "main.js": "/see-attle/static/js/main.c1b770e3.chunk.js",
-    "main.js.map": "/see-attle/static/js/main.c1b770e3.chunk.js.map",
+    "main.js": "/see-attle/static/js/main.3e32bee3.chunk.js",
+    "main.js.map": "/see-attle/static/js/main.3e32bee3.chunk.js.map",
     "runtime~main.js": "/see-attle/static/js/runtime~main.df09cfc7.js",
     "runtime~main.js.map": "/see-attle/static/js/runtime~main.df09cfc7.js.map",
     "static/js/2.ec295295.chunk.js": "/see-attle/static/js/2.ec295295.chunk.js",
     "static/js/2.ec295295.chunk.js.map": "/see-attle/static/js/2.ec295295.chunk.js.map",
     "index.html": "/see-attle/index.html",
-    "precache-manifest.d912da4ec56056dcc6532379fcd2fb21.js": "/see-attle/precache-manifest.d912da4ec56056dcc6532379fcd2fb21.js",
+    "precache-manifest.bf8f4c781b0c1934d654c838d424a1de.js": "/see-attle/precache-manifest.bf8f4c781b0c1934d654c838d424a1de.js",
     "service-worker.js": "/see-attle/service-worker.js",
     "static/css/main.cf5123e3.chunk.css.map": "/see-attle/static/css/main.cf5123e3.chunk.css.map",
     "static/media/index.css": "/see-attle/static/media/Main.d07535ed.ttf",
@@ -19,6 +19,6 @@
     "static/media/tavolata.jpg": "/see-attle/static/media/tavolata.2211d964.jpg",
     "static/media/title.jpg": "/see-attle/static/media/title.f28c3a82.jpg",
     "static/media/totokaelo.jpg": "/see-attle/static/media/totokaelo.51200554.jpg",
-    "static/media/westward.jpg": "/see-attle/static/media/westward.3c34f37a.jpg"
+    "static/media/westward.jpg": "/see-attle/static/media/westward.af8ffddc.jpg"
   }
 }

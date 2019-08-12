@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08b3e115da468f122f87fa15d6642298",
+    "revision": "44cb8ea20bcb79cfd49f27c5659f6920",
     "url": "/see-attle/index.html"
   },
   {
-    "revision": "17f11052fd21e858d9cc",
+    "revision": "e931b5d1e5fffe4f7d3c",
     "url": "/see-attle/static/css/main.cf5123e3.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/see-attle/static/js/2.ec295295.chunk.js"
   },
   {
-    "revision": "17f11052fd21e858d9cc",
-    "url": "/see-attle/static/js/main.c1b770e3.chunk.js"
+    "revision": "e931b5d1e5fffe4f7d3c",
+    "url": "/see-attle/static/js/main.3e32bee3.chunk.js"
   },
   {
     "revision": "5df30d38ecaea2bc58a3",
@@ -52,7 +52,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/see-attle/static/media/totokaelo.51200554.jpg"
   },
   {
-    "revision": "3c34f37ad6e94eec6de97d29402ad719",
-    "url": "/see-attle/static/media/westward.3c34f37a.jpg"
+    "revision": "af8ffddcb8cd92086255a5b4d704cd63",
+    "url": "/see-attle/static/media/westward.af8ffddc.jpg"
   }
 ]);
