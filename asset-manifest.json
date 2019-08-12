@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/see-attle/static/css/main.21d3e1a4.chunk.css",
-    "main.js": "/see-attle/static/js/main.8456740c.chunk.js",
-    "main.js.map": "/see-attle/static/js/main.8456740c.chunk.js.map",
+    "main.css": "/see-attle/static/css/main.cf5123e3.chunk.css",
+    "main.js": "/see-attle/static/js/main.c1b770e3.chunk.js",
+    "main.js.map": "/see-attle/static/js/main.c1b770e3.chunk.js.map",
     "runtime~main.js": "/see-attle/static/js/runtime~main.df09cfc7.js",
     "runtime~main.js.map": "/see-attle/static/js/runtime~main.df09cfc7.js.map",
     "static/js/2.ec295295.chunk.js": "/see-attle/static/js/2.ec295295.chunk.js",
     "static/js/2.ec295295.chunk.js.map": "/see-attle/static/js/2.ec295295.chunk.js.map",
     "index.html": "/see-attle/index.html",
-    "precache-manifest.611833bf508c4f5be85012037d3faba5.js": "/see-attle/precache-manifest.611833bf508c4f5be85012037d3faba5.js",
+    "precache-manifest.d912da4ec56056dcc6532379fcd2fb21.js": "/see-attle/precache-manifest.d912da4ec56056dcc6532379fcd2fb21.js",
     "service-worker.js": "/see-attle/service-worker.js",
-    "static/css/main.21d3e1a4.chunk.css.map": "/see-attle/static/css/main.21d3e1a4.chunk.css.map",
+    "static/css/main.cf5123e3.chunk.css.map": "/see-attle/static/css/main.cf5123e3.chunk.css.map",
     "static/media/index.css": "/see-attle/static/media/Main.d07535ed.ttf",
-    "static/media/App.css": "/see-attle/static/media/title.f28c3a82.jpg",
-    "static/media/totokaelo.jpg": "/see-attle/static/media/totokaelo.51200554.jpg"
+    "static/media/App.css": "/see-attle/static/media/Wide.4ec67681.ttf",
+    "static/media/din-tai-fung.jpg": "/see-attle/static/media/din-tai-fung.e96fc153.jpg",
+    "static/media/old-school-frozen-custard.jpg": "/see-attle/static/media/old-school-frozen-custard.5eba5d5e.jpg",
+    "static/media/ramen-danbo.jpg": "/see-attle/static/media/ramen-danbo.87524341.jpg",
+    "static/media/tavolata.jpg": "/see-attle/static/media/tavolata.2211d964.jpg",
+    "static/media/title.jpg": "/see-attle/static/media/title.f28c3a82.jpg",
+    "static/media/totokaelo.jpg": "/see-attle/static/media/totokaelo.51200554.jpg",
+    "static/media/westward.jpg": "/see-attle/static/media/westward.3c34f37a.jpg"
   }
 }
