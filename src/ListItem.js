@@ -13,7 +13,7 @@ function ListItem(props) {
   const hasImage = !plus;
 
   if (hasImage) {
-    img = require('./images/test.png');
+    img = require('./images/totokaelo.jpg');
   }
 
   useEffect(() => {
@@ -24,23 +24,25 @@ function ListItem(props) {
 
       //todo: more logic
       el.addEventListener("mousemove", e => {
-        // imgEl.style.display = 'block';
-        // imgEl.style.left = `${e.clientX + 50}px`;
-        // imgEl.style.top = `${e.clientY}px`;
-      })
+        el.classList.add('currHover');
+        imgEl.style.display = 'block';
+        imgEl.style.left = `${e.clientX + 50}px`;
+        imgEl.style.top = `${e.clientY}px`;
+      });
 
       el.addEventListener("mouseout", e => {
+        el.classList.remove('currHover');
         imgEl.style.display = 'none';
-      })
+      });
     }
   }, [id, hasImage]);
 
   return (
-    <li>
-      {hasImage && <img alt={id} id={id} src={img} />}
-      <span id={`el-${id}`} className={plus && 'plus'}>
+    <li id={`el-${id}`}>
+      <span className={plus && 'plus'}>
         {name}
       </span>
+      {hasImage && <img alt={id} id={id} src={img} />}
     </li>
   );
 }

@@ -6,6 +6,7 @@ section {
 @media only screen and (min-width: 768px) {
   h1 span {
     border-bottom: 30px double #fff;
+    -webkit-text-fill-color: #fff;
     -webkit-text-stroke: 0;
   }
 
@@ -31,9 +32,14 @@ section {
   }
 
   /* header */
+  .cred section:nth-child(1) {
+    background: url('./images/title.jpg') top no-repeat;
+  }
+
   section:nth-child(1) {
     color: #fff;
     background-color: #00b06a;
+    background-size: cover;
   }
 
   /* Food */
@@ -44,10 +50,10 @@ section {
   section:nth-child(2) h2,
   section:nth-child(2) span {
     -webkit-text-stroke-color: #00b06a;
-    -webkit-text-fill-color: #fff;
+    -webkit-text-fill-color: transparent;
   }
 
-  section:nth-child(2) span:hover,
+  section:nth-child(2) li:hover span,
   section:nth-child(2) a {
     -webkit-text-fill-color: #00b06a;
   }
@@ -60,10 +66,10 @@ section {
   section:nth-child(3) h2,
   section:nth-child(3) span {
     -webkit-text-stroke-color: #80d9ff;
-    -webkit-text-fill-color: #fff;
+    -webkit-text-fill-color: transparent;
   }
 
-  section:nth-child(3) span:hover {
+  section:nth-child(3) li:hover span {
     -webkit-text-fill-color: #80d9ff;
   }
 
@@ -75,10 +81,10 @@ section {
   section:nth-child(4) h2,
   section:nth-child(4) span {
     -webkit-text-stroke-color: #b999ff;
-    -webkit-text-fill-color: #fff;
+    -webkit-text-fill-color: transparent;
   }
 
-  section:nth-child(4) span:hover {
+  section:nth-child(4) li:hover span {
     -webkit-text-fill-color: #b999ff;
   }
 
@@ -90,10 +96,10 @@ section {
   section:nth-child(5) h2,
   section:nth-child(5) span {
     -webkit-text-stroke-color: #1900ff;
-    -webkit-text-fill-color: #fff;
+    -webkit-text-fill-color: transparent;
   }
 
-  section:nth-child(5) span:hover {
+  section:nth-child(5) li:hover span {
     -webkit-text-fill-color: #1900ff;
   }
 
@@ -105,10 +111,10 @@ section {
   section:nth-child(6) h2,
   section:nth-child(6) span {
     -webkit-text-stroke-color: #ffd84a;
-    -webkit-text-fill-color: #fff;
+    -webkit-text-fill-color: transparent;
   }
 
-  section:nth-child(6) span:hover {
+  section:nth-child(6) li:hover span {
     -webkit-text-fill-color: #ffd84a;
   }
 }

@@ -12,14 +12,21 @@ import ListItem from './ListItem';
 
 function App() {
   useEffect(() => {
-    const title = document.getElementsByTagName('h1');
-    console.log(title[0].textContent)
+    const body = document.getElementsByTagName('body')[0];
+    const cred = document.getElementById('cred');
+    cred.addEventListener("mousemove", e => {
+      body.classList.add('cred');
+    })
+
+    cred.addEventListener("mouseout", e => {
+      body.classList.remove('cred');
+    })
   }, []);
 
   return (
     <main>
       <section>
-        <h1>When  in... <nobr><span>SEE</span>-attle</nobr></h1>
+        <h1>When  in... <nobr><span id="cred">SEE</span>-attle</nobr></h1>
       </section>
       <section>
         <h2>Food</h2>
@@ -58,7 +65,10 @@ function App() {
         <ListItem name="The London Plane" />
         <ListItem name="Cherry Street Coffee House" plus />
         <ListItem name="Grand Central Bakery" plus />
+        <ListItem name="Slate Coffee Roasters" plus />
+        <ListItem name="Milstead & Co." plus />
         <ListItem name="Stumptown Coffee Roasters" plus />
+        <ListItem name="Little Oddfellows" plus />
         <ListItem name="Elm Coffee Roasters" plus />
         <ListItem name="Zeitgeist Coffee" plus />
         <ListItem name="Victrola Coffee Roasters" plus />
@@ -71,6 +81,7 @@ function App() {
         <p>not much of a winter hiker but here's what i did</p>
         <ListItem name="Lake 22" />
         <ListItem name="Rattlesnake Ledge" plus />
+        <ListItem name="Poo Poo Point" />
         <ListItem name="Discovery Park Loop Trail" />
         <ListItem name="Mount/Little Si" />
         <ListItem name="Washington Park Arboretum" />
@@ -83,7 +94,11 @@ function App() {
         <ListItem name="Linda Hodges Gallery" />
         <ListItem name="Seattle Art Museum" />
         <ListItem name="Harris Harvey Gallery" />
+        <ListItem name="Bryan Ohno Gallery" />
         <ListItem name="Traver Gallery" />
+        <ListItem name="Frederick Holmes and Company" />
+        <ListItem name="Treason Gallery" />
+        <ListItem name="Center on Contemporary Art (CoCA) Gallery" />
         <ListItem name="Vetri Gallery" />
         <ListItem name="Davidson Galleries" />
       </section>
