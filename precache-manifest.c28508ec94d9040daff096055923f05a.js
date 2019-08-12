@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "325d50cb5bcca9eb2a0d3487fca7c7ef",
+    "revision": "94631d8736f05eeb5ee5c1d3fd27132a",
     "url": "/see-attle/index.html"
   },
   {
-    "revision": "63dc87460ad00818c56b",
-    "url": "/see-attle/static/css/main.cf5123e3.chunk.css"
+    "revision": "f74ea959bd36f15ab97d",
+    "url": "/see-attle/static/css/main.71d8b3d9.chunk.css"
   },
   {
     "revision": "b5c5beb43fab1ff7f479",
     "url": "/see-attle/static/js/2.ec295295.chunk.js"
   },
   {
-    "revision": "63dc87460ad00818c56b",
+    "revision": "f74ea959bd36f15ab97d",
     "url": "/see-attle/static/js/main.9273f402.chunk.js"
   },
   {
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d07535ed14e47dd879c110c15ee8da70",
     "url": "/see-attle/static/media/Main.d07535ed.ttf"
+  },
+  {
+    "revision": "0126f5d5ab3017a6166d9ce0efbf1c61",
+    "url": "/see-attle/static/media/Text.0126f5d5.otf"
   },
   {
     "revision": "4ec67681acc5c49421ab298fd49a0382",
