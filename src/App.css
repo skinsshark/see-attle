@@ -31,13 +31,13 @@ section {}
 
   /* header */
   .cred section:nth-child(1) {
-    background: url('./images/title.jpg') top no-repeat;
+    background: url('./images/title.jpg') top;
   }
 
   section:nth-child(1) {
     color: #fff;
     background-color: #00b06a;
-    background-size: cover;
+    background-size: contain;
   }
 
   /* Food */
@@ -133,7 +133,7 @@ h1, h2 {
 
 @media only screen and (max-width: 767px) {
   h1 span {
-    border-bottom: 10px double #00995c;
+    border-bottom: 15px double #00995c;
     -webkit-text-stroke: 0;
   }
 }

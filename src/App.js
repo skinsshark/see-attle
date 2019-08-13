@@ -26,11 +26,11 @@ function App() {
   return (
     <main>
       <section>
-        <h1>When  in... <nobr><span id="cred">SEE</span>-attle</nobr></h1>
+        <h1>When  in... <br /><span id="cred">SEE</span>-attle</h1>
       </section>
       <section>
         <h2>Food</h2>
-        {/*<p>i really miss some of these places</p>*/}
+        <p>i really miss the lo mein in chinatown, sushi by the water, and doughnuts in the Spheres</p>
         <ListItem name="Tavolata" plus />
         <ListItem name="Eden Hill" plus />
         <ListItem name="Mike's Noodle House" plus />
@@ -89,7 +89,7 @@ function App() {
 
       <section>
         <h2>Art</h2>
-        <p>Seattle is all about glass and wood art and I am not a fan of either but here's some places that featured non-glass/wood exhibits</p>
+        <p>Seattle is all about glass and wood art and i am not a fan of either but here's some places that featured non-glass/wood exhibits</p>
         <ListItem name="Frye Art Museum" />
         <ListItem name="Linda Hodges Gallery" plus />
         <ListItem name="Seattle Art Museum" plus />
