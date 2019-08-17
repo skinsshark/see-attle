@@ -1,50 +1,52 @@
-import React, { useEffect } from 'react';
-
+import React, { Component, lazy, Suspense } from 'react';
 import './ListItem.css';
 
-function ListItem(props) {
-  let img;
-  const { name, plus } = props;
-  const id = name
-    .replace(/'| &/g, '')
-    .replace(/\/| /g, '-')
-    .toLowerCase();
-
-  const hasImage = !plus;
-
-  if (hasImage) {
-    img = require(`./images/${id}.jpg`);
+class ListItem extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      trigger: false,
+      hasImage: !props.plus,
+    }
   }
 
-  useEffect(() => {
-    const el = document.getElementById(`el-${id}`);
-
-    if (hasImage) {
-      const imgEl = document.getElementById(id);
-
-      //todo: more logic
-      el.addEventListener("mousemove", e => {
-        el.classList.add('currHover');
-        imgEl.style.display = 'block';
-        imgEl.style.left = `${e.clientX + 50}px`;
-        imgEl.style.top = `${e.clientY}px`;
-      });
-
-      el.addEventListener("mouseout", e => {
-        el.classList.remove('currHover');
-        imgEl.style.display = 'none';
-      });
+  loadCursorImage() {
+    if (this.state.hasImage && !this.state.trigger) {
+      this.setState({ trigger: true });
     }
-  }, [id, hasImage]);
+  }
 
-  return (
-    <li id={`el-${id}`}>
-      <span className={plus && 'plus'}>
-        {name}
-      </span>
-      {hasImage && <img alt={id} id={id} src={img} />}
-    </li>
-  );
+  showImage(id) {
+    const CursorImage = lazy(() => import('./CursorImage'));
+    return (
+      <Suspense fallback={<div>Loading...</div>}>
+        <CursorImage id={id} />
+      </Suspense>
+    );
+  }
+
+  render() {
+    const { name, plus } = this.props;
+    const id = name
+      .replace(/'| &/g, '')
+      .replace(/\/| /g, '-')
+      .toLowerCase();
+
+    const { trigger, hasImage } = this.state;
+    console.log('id', id)
+    console.log('trigger', trigger)
+
+    return (
+      <li id={`el-${id}`} onMouseEnter={() => this.loadCursorImage()}>
+        <span className={plus && 'plus'}>
+          {name}
+        </span>
+        {hasImage && trigger && (
+          this.showImage(id)
+        )}
+      </li>
+    );
+  }
 }
 
 export default ListItem;

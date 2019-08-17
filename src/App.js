@@ -31,24 +31,24 @@ function App() {
       <section>
         <h2>Food</h2>
         <p>i really miss the lo mein in chinatown, sushi by the water, and doughnuts in the Spheres</p>
-        <ListItem name="Tavolata" plus />
-        <ListItem name="Eden Hill" plus />
+        <ListItem name="Tavolata" />
+        <ListItem name="Eden Hill" />
         <ListItem name="Mike's Noodle House" plus />
-        <ListItem name="Il Corvo" plus />
-        <ListItem name="Sushi Kashiba" plus />
-        <ListItem name="Piroshky Piroshky" plus />
+        <ListItem name="Il Corvo" />
+        <ListItem name="Sushi Kashiba" />
+        <ListItem name="Piroshky Piroshky" />
         <ListItem name="Sitka & Spruce" plus />
-        <ListItem name="Lola" plus />
+        <ListItem name="Lola" />
         <ListItem name="Ramen Danbo" />
         <ListItem name="The Pink Door" plus />
         <ListItem name="Din Tai Fung" />
         <ListItem name="General Porpoise Doughnuts" plus />
-        <ListItem name="Frankie & Jo's" plus />
+        <ListItem name="Frankie & Jo's" />
         <ListItem name="Rachel's Ginger Beer" plus />
         <ListItem name="Molly Moon's Homemade Ice Cream" plus />
-        <ListItem name="The Walrus and the Carpenter" plus />
+        <ListItem name="The Walrus and the Carpenter" />
         <ListItem name="Westward" />
-        <ListItem name="Shiro's Sushi" plus />
+        <ListItem name="Shiro's Sushi" />
         <ListItem name="Old School Frozen Custard" />
 
         <p className="plus ad">
@@ -79,7 +79,7 @@ function App() {
       <section>
         <h2>Nature</h2>
         <p>not much of a winter hiker but here's what i did</p>
-        <ListItem name="Lake 22" plus />
+        <ListItem name="Lake 22" />
         <ListItem name="Rattlesnake Ledge" plus />
         <ListItem name="Poo Poo Point" plus />
         <ListItem name="Discovery Park Loop Trail" plus />
@@ -108,7 +108,7 @@ function App() {
         {/*<p>lots of fun and cool places around the city</p>*/}
         <ListItem name="Totokaelo" />
         <ListItem name="Standard Goods" plus />
-        <ListItem name="Glasswing Shop" plus />
+        <ListItem name="Glasswing Shop" />
         <ListItem name="Homestead Seattle" plus />
         <ListItem name="The Palm Room" plus />
         <ListItem name="Prism" plus />
