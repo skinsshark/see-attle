@@ -19,7 +19,7 @@ class ListItem extends Component {
   showImage(id) {
     const CursorImage = lazy(() => import('./CursorImage'));
     return (
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<span id="loading">Loading...</span>}>
         <CursorImage id={id} />
       </Suspense>
     );
@@ -33,8 +33,6 @@ class ListItem extends Component {
       .toLowerCase();
 
     const { trigger, hasImage } = this.state;
-    console.log('id', id)
-    console.log('trigger', trigger)
 
     return (
       <li id={`el-${id}`} onMouseEnter={() => this.loadCursorImage()}>
