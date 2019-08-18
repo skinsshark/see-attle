@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99e40f3763dcf2d11e1a9b6f2f9c8a00",
+    "revision": "13e69543fc19b3e9872afb3fc3e9f28b",
     "url": "/see-attle/index.html"
   },
   {
-    "revision": "b5fdce904b004e683309",
-    "url": "/see-attle/static/css/main.b7d2d4bf.chunk.css"
+    "revision": "e52a18f6f8db2dcfa936",
+    "url": "/see-attle/static/css/main.e0c2fc1e.chunk.css"
   },
   {
-    "revision": "df9bf14a803c4da9fe36",
-    "url": "/see-attle/static/js/2.f5a30693.chunk.js"
+    "revision": "4379ca6f6a2d082fef86",
+    "url": "/see-attle/static/js/2.9fe6db7b.chunk.js"
   },
   {
-    "revision": "d989b41c23cb15ac3f4d",
-    "url": "/see-attle/static/js/3.c84bea90.chunk.js"
+    "revision": "2e53ba97fcad39bbe877",
+    "url": "/see-attle/static/js/3.7907e6e2.chunk.js"
   },
   {
-    "revision": "b5fdce904b004e683309",
-    "url": "/see-attle/static/js/main.f5e777d3.chunk.js"
+    "revision": "e52a18f6f8db2dcfa936",
+    "url": "/see-attle/static/js/main.5b2dfcb4.chunk.js"
   },
   {
-    "revision": "59d787e1a471f4b2e483",
-    "url": "/see-attle/static/js/runtime~main.4aae78a2.js"
+    "revision": "d74a5b48a28605ceafb2",
+    "url": "/see-attle/static/js/runtime~main.5f976f7e.js"
   },
   {
     "revision": "d07535ed14e47dd879c110c15ee8da70",
@@ -36,28 +36,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/see-attle/static/media/Wide.4ec67681.ttf"
   },
   {
-    "revision": "2285f05c506efddb40efa837f11c71f8",
-    "url": "/see-attle/static/media/ambrosia-cafe.2285f05c.jpg"
+    "revision": "7a649c0e1cc6780194f21a2b248a31c8",
+    "url": "/see-attle/static/media/ambrosia-cafe.7a649c0e.jpg"
   },
   {
-    "revision": "e96fc15365231f2dc29fc9c10895cfea",
-    "url": "/see-attle/static/media/din-tai-fung.e96fc153.jpg"
+    "revision": "ea47e1fc0188c4cae7812d4f2a831cb6",
+    "url": "/see-attle/static/media/din-tai-fung.ea47e1fc.jpg"
   },
   {
     "revision": "c39829c74e6cc883b84f49ce67d1a764",
     "url": "/see-attle/static/media/eden-hill.c39829c7.jpg"
   },
   {
-    "revision": "5ecaa69ad1471e880c5eb70839d4f482",
-    "url": "/see-attle/static/media/frankie-jos.5ecaa69a.jpg"
-  },
-  {
     "revision": "6dce971d44634d6d099ad89b1dff07e9",
     "url": "/see-attle/static/media/frye-art-museum.6dce971d.jpg"
-  },
-  {
-    "revision": "b8acbbcca94d7030691a374aa4ab566c",
-    "url": "/see-attle/static/media/girin.b8acbbcc.jpg"
   },
   {
     "revision": "266e05f74fd297b4a58515fcc77b33da",
@@ -72,20 +64,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/see-attle/static/media/lake-22.dd0f1d1d.jpg"
   },
   {
-    "revision": "8d1f72902b18f73fe63f690f63024859",
-    "url": "/see-attle/static/media/lola.8d1f7290.jpg"
-  },
-  {
-    "revision": "2152bee1ba26ecb6157b0731be985489",
-    "url": "/see-attle/static/media/morena-seal.2152bee1.jpg"
+    "revision": "32b89d8539cf8d6f204c66dfe306ad6d",
+    "url": "/see-attle/static/media/lola.32b89d85.jpg"
   },
   {
     "revision": "1ae17bccca5c57ae8c62978b97588d98",
     "url": "/see-attle/static/media/museum-of-pop-culture.1ae17bcc.jpg"
-  },
-  {
-    "revision": "388b3b4314c3eceffab992c04052425e",
-    "url": "/see-attle/static/media/old-school-frozen-custard.388b3b43.jpg"
   },
   {
     "revision": "fe0f9c9c72d065aaae75cb549f1624f6",
@@ -108,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/see-attle/static/media/shiros-sushi.71dc7a5a.jpg"
   },
   {
-    "revision": "f593b7803be038e87ffdf2bb2606a87f",
-    "url": "/see-attle/static/media/sushi-kashiba.f593b780.jpg"
+    "revision": "f1c88eef705b5da03d900aa4aca62f35",
+    "url": "/see-attle/static/media/sushi-kashiba.f1c88eef.jpg"
   },
   {
     "revision": "7500cd1417a0a8eab42b227a86f7b979",
@@ -117,7 +101,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "e33bd9914cdba66eacfb10d6d0e619b8",
-    "url": "/see-attle/static/media/the-spheres.e33bd991.jpg"
+    "url": "/see-attle/static/media/the-amazon-spheres.e33bd991.jpg"
   },
   {
     "revision": "3588e478696b4e3543f6fa788a071521",
@@ -132,19 +116,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/see-attle/static/media/totokaelo.51200554.jpg"
   },
   {
-    "revision": "4f6e155cd56bf3fe8974a5cfce9299ce",
-    "url": "/see-attle/static/media/vetri-gallery-1.4f6e155c.jpg"
-  },
-  {
-    "revision": "4b0b7943b6d2acd41774a162f4c66b71",
-    "url": "/see-attle/static/media/vetri-gallery-2.4b0b7943.jpg"
-  },
-  {
     "revision": "108395f5643b65f4205bedb2b9907070",
     "url": "/see-attle/static/media/vetri-gallery.108395f5.jpg"
   },
   {
-    "revision": "246b106e0e21240ad8647e84b40fdab2",
-    "url": "/see-attle/static/media/westward.246b106e.jpg"
+    "revision": "6fd6e2a6de20999cccd8857f1444b18e",
+    "url": "/see-attle/static/media/westward.6fd6e2a6.jpg"
   }
 ]);
