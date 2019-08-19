@@ -6,7 +6,7 @@ class ListItem extends Component {
     super(props);
     this.state = {
       trigger: false,
-      hasImage: !props.plus,
+      hasImage: props.plus,
     }
   }
 
@@ -26,7 +26,7 @@ class ListItem extends Component {
   }
 
   render() {
-    const { name, plus } = this.props;
+    const { name, url, plus } = this.props;
     const id = name
       .replace(/'| &/g, '')
       .replace(/\/| /g, '-')
@@ -36,9 +36,13 @@ class ListItem extends Component {
 
     return (
       <li id={`el-${id}`} onMouseEnter={() => this.loadCursorImage()}>
-        <span className={plus && 'plus'}>
+        <a href={url}
+          className={plus ? undefined : 'plus'}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {name}
-        </span>
+        </a>
         {hasImage && trigger && (
           this.showImage(id)
         )}

@@ -1,5 +1,8 @@
 /* sections */
-section {}
+/* section,
+span {
+  pointer-events: none;
+} */
 
 @media only screen and (min-width: 768px) {
   h1 span {
@@ -46,13 +49,12 @@ section {}
   }
 
   section:nth-child(2) h2,
-  section:nth-child(2) span {
+  section:nth-child(2) a {
     -webkit-text-stroke-color: #00b06a;
     -webkit-text-fill-color: transparent;
   }
 
-  section:nth-child(2) li:hover span,
-  section:nth-child(2) a {
+  section:nth-child(2) li:hover a {
     -webkit-text-fill-color: #00b06a;
   }
 
@@ -62,12 +64,12 @@ section {}
   }
 
   section:nth-child(3) h2,
-  section:nth-child(3) span {
+  section:nth-child(3) a {
     -webkit-text-stroke-color: #80d9ff;
     -webkit-text-fill-color: transparent;
   }
 
-  section:nth-child(3) li:hover span {
+  section:nth-child(3) li:hover a {
     -webkit-text-fill-color: #80d9ff;
   }
 
@@ -77,12 +79,12 @@ section {}
   }
 
   section:nth-child(4) h2,
-  section:nth-child(4) span {
+  section:nth-child(4) a {
     -webkit-text-stroke-color: #b999ff;
     -webkit-text-fill-color: transparent;
   }
 
-  section:nth-child(4) li:hover span {
+  section:nth-child(4) li:hover a {
     -webkit-text-fill-color: #b999ff;
   }
 
@@ -92,12 +94,12 @@ section {}
   }
 
   section:nth-child(5) h2,
-  section:nth-child(5) span {
+  section:nth-child(5) a {
     -webkit-text-stroke-color: #1900ff;
     -webkit-text-fill-color: transparent;
   }
 
-  section:nth-child(5) li:hover span {
+  section:nth-child(5) li:hover a {
     -webkit-text-fill-color: #1900ff;
   }
 
@@ -107,12 +109,12 @@ section {}
   }
 
   section:nth-child(6) h2,
-  section:nth-child(6) span {
+  section:nth-child(6) a {
     -webkit-text-stroke-color: #ffd84a;
     -webkit-text-fill-color: transparent;
   }
 
-  section:nth-child(6) li:hover span {
+  section:nth-child(6) li:hover a {
     -webkit-text-fill-color: #ffd84a;
   }
 }
@@ -266,6 +268,15 @@ footer {
 .ad {
   max-width: none;
   font-size: 0.25em;
+}
+
+section .ad a {
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-fill-color: #00b06a;
+}
+
+section .ad a:hover {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 767px) {

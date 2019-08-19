@@ -1,0 +1,307 @@
+{
+  "food": [
+    {
+      "name": "Eden Hill",
+      "url": "https://goo.gl/maps/wo3GEUDp4YUEXA6PA",
+      "hasImage": true
+    },
+    {
+      "name": "Mike's Noodle House",
+      "url": "https://goo.gl/maps/NzQjtNFswHvNZuJQ6",
+      "hasImage": false
+    },
+    {
+      "name": "Il Corvo",
+      "url": "https://goo.gl/maps/6owfDp8oBhxoVwUM6",
+      "hasImage": true
+    },
+    {
+      "name": "Sushi Kashiba",
+      "url": "https://goo.gl/maps/bBMNTQXqkqJ7Hnhm7",
+      "hasImage": true
+    },
+    {
+      "name": "Piroshky Piroshky",
+      "url": "https://goo.gl/maps/evASmhMREEgoLL2U8",
+      "hasImage": true
+    },
+    {
+      "name": "Sitka & Spruce",
+      "url": "https://goo.gl/maps/JvFZ3ASvYaZpopyE7",
+      "hasImage": false
+    },
+    {
+      "name": "Lola",
+      "url": "https://goo.gl/maps/HpoNs4L94ERkHDUUA",
+      "hasImage": true
+    },
+    {
+      "name": "Ramen Danbo",
+      "url": "https://goo.gl/maps/tKeTezT5LsVkeS9Q6",
+      "hasImage": true
+    },
+    {
+      "name": "Din Tai Fung",
+      "url": "https://goo.gl/maps/tKyAdGCNYEyLK65P9",
+      "hasImage": true
+    },
+    {
+      "name": "General Porpoise Doughnuts",
+      "url": "https://goo.gl/maps/iGAcsvh4fHNbNnDUA",
+      "hasImage": false
+    },
+    {
+      "name": "Tavolata",
+      "url": "https://goo.gl/maps/TrgpJDeyLeeJbYGd6",
+      "hasImage": true
+    },
+    {
+      "name": "Green Leaf Vietnamese Restaurant",
+      "url": "https://goo.gl/maps/q81Q3cpCAfS7weGC6",
+      "hasImage": false
+    },
+    {
+      "name": "Frankie & Jo's",
+      "url": "https://goo.gl/maps/EFxAdEGjtpiSmGRa9",
+      "hasImage": true
+    },
+    {
+      "name": "Salumi",
+      "url": "https://goo.gl/maps/6k8ubAs5D891MFhD8",
+      "hasImage": false
+    },
+    {
+      "name": "Molly Moon's Homemade Ice Cream",
+      "url": "https://goo.gl/maps/p3tqy4ftYEvc9Q9i8",
+      "hasImage": false
+    },
+    {
+      "name": "The Whale Wins",
+      "url": "https://goo.gl/maps/5FzVdMEfPVpf6P9C6",
+      "hasImage": true
+    },
+    {
+      "name": "Salt and Straw",
+      "url": "https://goo.gl/maps/g62CtqUHjt1xoAWP6",
+      "hasImage": true
+    },
+    {
+      "name": "Westward",
+      "url": "https://goo.gl/maps/y5bMg1P8EZtMF52E6",
+      "hasImage": true
+    },
+    {
+      "name": "Shiro's Sushi",
+      "url": "https://goo.gl/maps/7tnuaRRWJr6P1LQT8",
+      "hasImage": true
+    }
+  ],
+  "cafes": [
+    {
+      "name": "La Marzocco Cafe",
+      "url": "https://goo.gl/maps/jQF3j3Wb9vdcp4VV9",
+      "hasImage": false
+    },
+    {
+      "name": "Ambrosia Cafe",
+      "url": "https://goo.gl/maps/Cc6TP5xkCJ6m25t28",
+      "hasImage": true
+    },
+    {
+      "name": "The London Plane",
+      "url": "https://goo.gl/maps/48ASxGGn7tD6kbRL9",
+      "hasImage": false
+    },
+    {
+      "name": "Cherry Street Coffee House",
+      "url": "https://goo.gl/maps/kJxHbnUWVhnrCgJM8",
+      "hasImage": false
+    },
+    {
+      "name": "Grand Central Bakery",
+      "url": "https://goo.gl/maps/xrJpyj9SLhUJh67YA",
+      "hasImage": false
+    },
+    {
+      "name": "Slate Coffee Roasters",
+      "url": "https://goo.gl/maps/JUZFFdBWsyL3WzAj9",
+      "hasImage": false
+    },
+    {
+      "name": "Milstead & Co.",
+      "url": "https://goo.gl/maps/teA9QpmYxwWVdUAz5",
+      "hasImage": false
+    },
+    {
+      "name": "Little Oddfellows Cafe",
+      "url": "https://goo.gl/maps/7uaRk7qbsv5CShhp7",
+      "hasImage": false
+    },
+    {
+      "name": "Elm Coffee Roasters",
+      "url": "https://goo.gl/maps/XqjuzbEMB1r3J3Vj6",
+      "hasImage": false
+    },
+    {
+      "name": "Zeitgeist Coffee",
+      "url": "https://goo.gl/maps/BdyHfhpUpKzEpUFd9",
+      "hasImage": false
+    },
+    {
+      "name": "Victrola Coffee Roasters",
+      "url": "https://goo.gl/maps/irkCCzTrHBi9GVMv7",
+      "hasImage": false
+    },
+    {
+      "name": "Storyville Roasters",
+      "url": "https://goo.gl/maps/w1yCLqv8RSL5XAEz7",
+      "hasImage": false
+    }
+  ],
+  "nature": [
+    {
+      "name": "Lake Twenty-Two",
+      "url": "https://goo.gl/maps/jk3V7YGC2JU79hbW8",
+      "hasImage": true
+    },
+    {
+      "name": "Rattlesnake Ledge",
+      "url": "https://goo.gl/maps/4jVZbKqjPAzsjBVy7",
+      "hasImage": false
+    },
+    {
+      "name": "Poo Poo Point",
+      "url": "https://goo.gl/maps/7bija2gdcMbKkZBm8",
+      "hasImage": false
+    },
+    {
+      "name": "Discovery Park Loop Trail",
+      "url": "https://goo.gl/maps/SeYF5AZrCy3DF8DN8",
+      "hasImage": false
+    },
+    {
+      "name": "Mount/Little Si",
+      "url": "https://goo.gl/maps/JmA9bGNrLR2x9SnD8",
+      "hasImage": false
+    },
+    {
+      "name": "Washington Park Arboretum",
+      "url": "https://goo.gl/maps/oGVaPdpzypX3s3kF9",
+      "hasImage": false
+    }
+  ],
+  "art": [
+    {
+      "name": "Frye Art Museum",
+      "url": "https://goo.gl/maps/NWG8vCWK4ggaPyqn7",
+      "hasImage": true
+    },
+    {
+      "name": "Linda Hodges Gallery",
+      "url": "https://goo.gl/maps/oexFABfgHVu6myLU6",
+      "hasImage": false
+    },
+    {
+      "name": "Seattle Art Museum",
+      "url": "https://g.page/visitsam?share",
+      "hasImage": false
+    },
+    {
+      "name": "Harris Harvey Gallery",
+      "url": "https://goo.gl/maps/kStAcZvvPLbZ427T9",
+      "hasImage": false
+    },
+    {
+      "name": "Bryan Ohno Gallery",
+      "url": "https://goo.gl/maps/miYSms4gDzdbvw6y8",
+      "hasImage": false
+    },
+    {
+      "name": "Museum of Pop Culture",
+      "url": "https://goo.gl/maps/ptvP7GV4Rizht4yy7",
+      "hasImage": true
+    },
+    {
+      "name": "Traver Gallery",
+      "url": "https://goo.gl/maps/5GU9GFr62DGnEBMG7",
+      "hasImage": false
+    },
+    {
+      "name": "Frederick Holmes and Company",
+      "url": "https://g.page/Frederick-Holmes-Gallery?share",
+      "hasImage": false
+    },
+    {
+      "name": "Treason Gallery",
+      "url": "https://goo.gl/maps/2JgbfVyWdw1ubSfi9",
+      "hasImage": false
+    },
+    {
+      "name": "Vetri Gallery",
+      "url": "https://goo.gl/maps/u6cfWj2rsro6f18N7",
+      "hasImage": true
+    },
+    {
+      "name": "Davidson Galleries",
+      "url": "https://goo.gl/maps/JdzL6C4srybSxmrj9",
+      "hasImage": false
+    }
+  ],
+  "other": [
+    {
+      "name": "Totokaelo",
+      "url": "https://goo.gl/maps/o9B4pcSncMWmiSMd6",
+      "hasImage": true
+    },
+    {
+      "name": "Standard Goods",
+      "url": "https://goo.gl/maps/j2V6VniQoTpN6Tp49",
+      "hasImage": false
+    },
+    {
+      "name": "Glasswing Shop",
+      "url": "https://goo.gl/maps/MNN43jisdW7a3MiNA",
+      "hasImage": true
+    },
+    {
+      "name": "Seattle Central Library",
+      "url": "https://goo.gl/maps/TvaQmMcSp5drigET8",
+      "hasImage": true
+    },
+    {
+      "name": "Homestead Seattle",
+      "url": "https://goo.gl/maps/9W2Ncp23dpW9yZZXA",
+      "hasImage": false
+    },
+    {
+      "name": "The Palm Room",
+      "url": "https://goo.gl/maps/ULA9JWoQY2oau5Dv6",
+      "hasImage": false
+    },
+    {
+      "name": "Prism",
+      "url": "https://goo.gl/maps/5Kdx5VNB5WZCZ2uw9",
+      "hasImage": false
+    },
+    {
+      "name": "The Amazon Spheres",
+      "url": "https://goo.gl/maps/7Dx67he6DRwyTZXb6",
+      "hasImage": true
+    },
+    {
+      "name": "Baby & Company",
+      "url": "https://goo.gl/maps/7Nt34FzG38ingtoK7",
+      "hasImage": false
+    },
+    {
+      "name": "The Elliott Bay Book Company",
+      "url": "https://goo.gl/maps/eZFjnJ8C74kQUmcJA",
+      "hasImage": true
+    },
+    {
+      "name": "Uwajimaya",
+      "url": "https://goo.gl/maps/U7T1mS4coU8k6tQv9",
+      "hasImage": false
+    }
+  ]
+}
