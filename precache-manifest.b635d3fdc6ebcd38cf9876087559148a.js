@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13e69543fc19b3e9872afb3fc3e9f28b",
+    "revision": "e204cb1a4543a49661cf6bb21052d688",
     "url": "/see-attle/index.html"
   },
   {
-    "revision": "e52a18f6f8db2dcfa936",
-    "url": "/see-attle/static/css/main.e0c2fc1e.chunk.css"
+    "revision": "77527453f0783684841c",
+    "url": "/see-attle/static/css/main.e57c5d3c.chunk.css"
   },
   {
-    "revision": "4379ca6f6a2d082fef86",
-    "url": "/see-attle/static/js/2.9fe6db7b.chunk.js"
+    "revision": "bc0c39491cb6ca7a6ec1",
+    "url": "/see-attle/static/js/2.2a4382cd.chunk.js"
   },
   {
-    "revision": "2e53ba97fcad39bbe877",
-    "url": "/see-attle/static/js/3.7907e6e2.chunk.js"
+    "revision": "65b215d07516cd99d353",
+    "url": "/see-attle/static/js/3.d1d23467.chunk.js"
   },
   {
-    "revision": "e52a18f6f8db2dcfa936",
-    "url": "/see-attle/static/js/main.5b2dfcb4.chunk.js"
+    "revision": "77527453f0783684841c",
+    "url": "/see-attle/static/js/main.5135bcc4.chunk.js"
   },
   {
-    "revision": "d74a5b48a28605ceafb2",
-    "url": "/see-attle/static/js/runtime~main.5f976f7e.js"
+    "revision": "aad04b668c594746ce6d",
+    "url": "/see-attle/static/js/runtime~main.34851b06.js"
   },
   {
     "revision": "d07535ed14e47dd879c110c15ee8da70",
@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/see-attle/static/media/eden-hill.c39829c7.jpg"
   },
   {
+    "revision": "e0735fd3917d6b108b3d4cf516902da0",
+    "url": "/see-attle/static/media/frankie-jos.e0735fd3.jpg"
+  },
+  {
     "revision": "6dce971d44634d6d099ad89b1dff07e9",
     "url": "/see-attle/static/media/frye-art-museum.6dce971d.jpg"
   },
@@ -61,7 +65,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "dd0f1d1db20c44179cf2777ba00d2539",
-    "url": "/see-attle/static/media/lake-22.dd0f1d1d.jpg"
+    "url": "/see-attle/static/media/lake-twenty-two.dd0f1d1d.jpg"
   },
   {
     "revision": "32b89d8539cf8d6f204c66dfe306ad6d",
@@ -104,8 +108,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/see-attle/static/media/the-amazon-spheres.e33bd991.jpg"
   },
   {
+    "revision": "f0be92b629daa00ca58b6105bc3832f1",
+    "url": "/see-attle/static/media/the-elliott-bay-book-company.f0be92b6.jpg"
+  },
+  {
     "revision": "3588e478696b4e3543f6fa788a071521",
-    "url": "/see-attle/static/media/the-walrus-and-the-carpenter.3588e478.jpg"
+    "url": "/see-attle/static/media/the-whale-wins.3588e478.jpg"
   },
   {
     "revision": "f28c3a8209728cb92c5846094e171599",
