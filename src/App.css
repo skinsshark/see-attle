@@ -1,8 +1,12 @@
-/* sections */
-/* section,
-span {
-  pointer-events: none;
-} */
+@font-face {
+	font-family: 'Wide';
+	src: url("./font/Wide.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: 'Main';
+	src: url("./font/Main.ttf") format('truetype');
+}
 
 @media only screen and (min-width: 768px) {
   h1 span {
@@ -32,15 +36,21 @@ span {
     padding: 100px 25px;
   }
 
-  /* header */
+  section h2 {
+    letter-spacing: 40px;
+    margin-left: 40px;
+  }
+
+  /* splash */
   .cred section:nth-child(1) {
-    background: url('./images/title.jpg') top;
+    background: url('./images/title.jpg') center center;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   section:nth-child(1) {
     color: #fff;
     background-color: #00b06a;
-    background-size: contain;
   }
 
   /* Food */
@@ -105,23 +115,18 @@ span {
 
   /* Stores */
   section:nth-child(6) {
-    color: #ffd84a;
+    color: #f5b642;
   }
 
   section:nth-child(6) h2,
   section:nth-child(6) a {
-    -webkit-text-stroke-color: #ffd84a;
+    -webkit-text-stroke-color: #f5b642;
     -webkit-text-fill-color: transparent;
   }
 
   section:nth-child(6) li:hover a {
-    -webkit-text-fill-color: #ffd84a;
+    -webkit-text-fill-color: #f5b642;
   }
-}
-
-@font-face {
-	font-family: 'Wide';
-	src: url("./font/Wide.ttf") format('truetype');
 }
 
 a {
@@ -133,7 +138,15 @@ h1, h2 {
   font-family: 'Wide', serif;
 }
 
+h2 {
+  text-transform: uppercase;
+}
+
 @media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 1.7em;
+  }
+
   h1 span {
     border-bottom: 15px double #00995c;
     -webkit-text-stroke: 0;
@@ -155,13 +168,15 @@ h2 {
 @media only screen and (max-width: 767px) {
   h2 {
     -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    letter-spacing: 5px;
   }
 }
 
 /* subtitles */
 h2 + p {
   margin-top: 0;
-  font-size: 0.5em;
+  font-size: 0.2em;
 }
 
 h2 + p::before {
@@ -241,28 +256,29 @@ p {
 
   section:nth-child(6),
   section:nth-child(6) span {
-    color: #ffd84a;
+    color: #f5b642;
   }
 
   section:nth-child(6) h2 {
-    -webkit-text-stroke-color: #ffd84a;
+    -webkit-text-stroke-color: #f5b642;
   }
 
   section:nth-child(6) span {
-    -webkit-text-fill-color: #ffd84a;
+    -webkit-text-fill-color: #f5b642;
   }
 }
 
-/* legend */
-footer {
-  margin-top: 150px;
-}
-
 /* utilities */
-.plus::before,
-.plus::after {
-  content: '+';
-  padding: 3px;
+@media only screen and (min-width: 768px) {
+  .plus::before,
+  .plus::after {
+    content: '+';
+    padding: 3px;
+  }
+
+  #cred {
+    cursor: zoom-in;
+  }
 }
 
 .ad {

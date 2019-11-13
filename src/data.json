@@ -6,14 +6,19 @@
       "hasImage": true
     },
     {
-      "name": "Mike's Noodle House",
-      "url": "https://goo.gl/maps/NzQjtNFswHvNZuJQ6",
-      "hasImage": false
+      "name": "Salt and Straw",
+      "url": "https://goo.gl/maps/g62CtqUHjt1xoAWP6",
+      "hasImage": true
     },
     {
       "name": "Il Corvo",
       "url": "https://goo.gl/maps/6owfDp8oBhxoVwUM6",
       "hasImage": true
+    },
+    {
+      "name": "Mike's Noodle House",
+      "url": "https://goo.gl/maps/NzQjtNFswHvNZuJQ6",
+      "hasImage": false
     },
     {
       "name": "Sushi Kashiba",
@@ -36,6 +41,11 @@
       "hasImage": true
     },
     {
+      "name": "Heartwood Provisions",
+      "url": "https://goo.gl/maps/Y4GvAPkLMTcDfnWi6",
+      "hasImage": false
+    },
+    {
       "name": "Ramen Danbo",
       "url": "https://goo.gl/maps/tKeTezT5LsVkeS9Q6",
       "hasImage": true
@@ -56,11 +66,6 @@
       "hasImage": true
     },
     {
-      "name": "Green Leaf Vietnamese Restaurant",
-      "url": "https://goo.gl/maps/q81Q3cpCAfS7weGC6",
-      "hasImage": false
-    },
-    {
       "name": "Frankie & Jo's",
       "url": "https://goo.gl/maps/EFxAdEGjtpiSmGRa9",
       "hasImage": true
@@ -78,11 +83,6 @@
     {
       "name": "The Whale Wins",
       "url": "https://goo.gl/maps/5FzVdMEfPVpf6P9C6",
-      "hasImage": true
-    },
-    {
-      "name": "Salt and Straw",
-      "url": "https://goo.gl/maps/g62CtqUHjt1xoAWP6",
       "hasImage": true
     },
     {
@@ -219,7 +219,7 @@
     {
       "name": "Museum of Pop Culture",
       "url": "https://goo.gl/maps/ptvP7GV4Rizht4yy7",
-      "hasImage": true
+      "hasImage": false
     },
     {
       "name": "Traver Gallery",
@@ -262,6 +262,11 @@
       "name": "Glasswing Shop",
       "url": "https://goo.gl/maps/MNN43jisdW7a3MiNA",
       "hasImage": true
+    },
+    {
+      "name": "Drygoods Design",
+      "url": "https://goo.gl/maps/p294MurAsfPFHNjM6",
+      "hasImage": false
     },
     {
       "name": "Seattle Central Library",

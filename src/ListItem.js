@@ -37,7 +37,7 @@ class ListItem extends Component {
     return (
       <li id={`el-${id}`} onMouseEnter={() => this.loadCursorImage()}>
         <a href={url}
-          className={plus ? undefined : 'plus'}
+          className={plus ? 'plus' : undefined}
           target="_blank"
           rel="noopener noreferrer"
         >
