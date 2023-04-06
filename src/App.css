@@ -280,10 +280,6 @@ p {
     cursor: zoom-in;
   }
 
-  #cred:hover {
-    /* background-repeat: no-repeat; */
-  }
-
   h1 span#cred:hover {
     color: transparent;
     -webkit-text-fill-color: transparent;
