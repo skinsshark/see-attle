@@ -9,7 +9,6 @@
 }
 
 body {
-	padding: 30px;
   margin: 0 0 100px;
   color: #00995c;
   font-family: 'Text', serif;
@@ -28,7 +27,6 @@ body {
 @media only screen and (max-width: 767px) {
   body {
     font-size: 1.8em;
-		padding: 0;
   }
 
 	h1 {

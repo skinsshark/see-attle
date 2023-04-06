@@ -10,7 +10,7 @@
 
 @media only screen and (min-width: 768px) {
   h1 span {
-    border-bottom: 30px double #fff;
+    border-bottom: 20px solid #fff;
     -webkit-text-fill-color: #fff;
     -webkit-text-stroke: 0;
   }
@@ -43,9 +43,9 @@
 
   /* splash */
   .cred section:nth-child(1) {
-    background: url('./images/title.jpg') center center;
+    /* background: url('./images/title.jpg') center center;
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
   }
 
   section:nth-child(1) {
@@ -148,7 +148,7 @@ h2 {
   }
 
   h1 span {
-    border-bottom: 15px double #00995c;
+    border-bottom: 10px solid #00995c;
     -webkit-text-stroke: 0;
   }
 }
@@ -278,6 +278,17 @@ p {
 
   #cred {
     cursor: zoom-in;
+  }
+
+  #cred:hover {
+    /* background-repeat: no-repeat; */
+  }
+
+  h1 span#cred:hover {
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    background: url('./images/title.jpg') center top;
+    background-size: cover;
   }
 }
 
