@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "03a990c49279aa86d29d114a53dbde32",
+    "revision": "3c011779e39f15a03873ad489fef8229",
     "url": "/see-attle/index.html"
   },
   {
-    "revision": "8900278a5f86082a90de",
-    "url": "/see-attle/static/css/main.a7132d45.chunk.css"
+    "revision": "22ff3965a586ceea97a4",
+    "url": "/see-attle/static/css/main.613e8d5d.chunk.css"
   },
   {
     "revision": "219d4eac398de00fd300",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/see-attle/static/js/3.9ff3389f.chunk.js"
   },
   {
-    "revision": "8900278a5f86082a90de",
+    "revision": "22ff3965a586ceea97a4",
     "url": "/see-attle/static/js/main.d43b9855.chunk.js"
   },
   {
